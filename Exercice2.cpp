@@ -6,7 +6,7 @@ void affichage (const string & temps){
         cout << "la caine est incorrecte";
     }
     else{
-        cout<<"Date :"<<temps.substr(0,2)<<"/"<<temps.substr(2,2)<<temps.substr(4,4)<<endl;
+        cout<<"Date :"<<temps.substr(0,2)<<"/"<<temps.substr(2,2)<<"/"<<temps.substr(4,4)<<endl;
         cout<<"Heure :"<<temps.substr(8,2)<<"H "<<temps.substr(10,2)<<"min"<<endl;
     }
 }
