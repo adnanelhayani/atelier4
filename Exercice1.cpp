@@ -87,5 +87,5 @@ cin >> im2;
    d=e/e2;
    d.afficher();
 
-
+return 0;
 }
