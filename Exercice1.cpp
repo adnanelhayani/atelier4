@@ -79,12 +79,16 @@ cin >> im2;
   complex e2(re2,im2);
   complex d ;
   d=(e+e2);
+  cout<<"la somme de deux nbr complex est: ";
   d.afficher();
    d=(e-e2);
+   cout<<"la soustraction de deux nbr complex est: ";
    d.afficher();
    d=e*e2;
+   cout<<"la divesion de deux nbr complex est: ";
    d.afficher();
    d=e/e2;
+   cout<<"la multiplication de deux nbr complex est: ";
    d.afficher();
 
 return 0;
